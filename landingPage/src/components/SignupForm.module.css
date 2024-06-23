@@ -1,0 +1,55 @@
+.signup-container {
+  margin: 4rem 6rem;
+  color: #2a2a2a;
+}
+
+.signup-container h1 {
+  padding-bottom: 1rem;
+  font-size: 3rem;
+}
+
+.signup-container form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+.signup-container input {
+  padding: 0 1rem;
+  font-size: 1rem;
+  height: 3rem;
+  margin-bottom: 1rem;
+  border-radius: 0.3rem;
+  border: 1px solid #2a2a2a;
+}
+
+.signup-container button {
+  margin-top: 1rem;
+  padding: 1rem 4rem;
+  font-size: 1.3rem;
+  width: 50%;
+  display: inline;
+}
+
+.signup-container p {
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 850px) {
+  .signup-container {
+    margin: 4rem 2rem;
+    color: #2a2a2a;
+  }
+
+  .signup-container form {
+    padding-top: 2rem;
+    width: 90%;
+  }
+
+  .signup-container button {
+    margin-top: 1rem;
+    width: 90%;
+  }
+}
