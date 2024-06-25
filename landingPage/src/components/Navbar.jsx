@@ -19,7 +19,7 @@ function Navbar() {
 
   return (
     <nav className={classes.NavbarItems}>
-      <h1 className={classes["narbar-logo"]}>Delhi for you</h1>
+      <h1 className={classes["narbar-logo"]}>Delhi for You</h1>
       <div className={classes["menu-icons"]} onClick={handleClick}>
         <i
           className={
