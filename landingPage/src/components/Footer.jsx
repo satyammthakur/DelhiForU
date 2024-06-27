@@ -6,8 +6,8 @@ function Footer() {
       {/* Top Section */}
       <div className={classes["top-row"]}>
         <div>
-          <h1>Msk Trippy</h1>
-          <p>Choose your favourite destination</p>
+          <h1>Delhi Tours</h1>
+          <p>Delhi se hai *apshabd* </p>
         </div>
         <div>
           <a href="/">
