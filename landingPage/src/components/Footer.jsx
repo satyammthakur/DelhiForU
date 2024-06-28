@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import classes from "./Footer.module.css";
 
 function Footer() {
@@ -7,47 +8,43 @@ function Footer() {
       <div className={classes["top-row"]}>
         <div>
           <h1>Delhi Tours</h1>
-          <p>Delhi se hai *apshabd* </p>
+          <p >Delhi se hai *apshabd* </p>
         </div>
         <div>
-          <a href="/">
-            <i className="fa-brands fa-facebook"></i>
-          </a>
-          <a href="/">
+          <Link to="https://github.com/satyammthakur">
+            <i className="fa-brands fa-github"></i>
+          </Link>
+          <Link to="https://x.com/eagerbat_">
             <i className="fa-brands fa-square-twitter"></i>
-          </a>
-          <a href="/">
+          </Link>
+          <Link to="https://www.instagram.com/satyammthakur/">
             <i className="fa-brands fa-square-instagram"></i>
-          </a>
+          </Link>
         </div>
-      </div>{" "}
+      </div>
       {/* Bottom Section */}
       <div className={classes["bottom-row"]}>
-        <div>
+        {/* <div>
           <h4>Project</h4>
-          <a href="">Changelog</a>
-          <a href="">Status</a>
-          <a href="">License</a>
-          <a href="">All Versions</a>
-        </div>
+          <Link to="">Changelog</Link>
+          <Link to="">Status</Link>
+        </div> */}
         <div>
           <h4>Community</h4>
-          <a href="">GitHub</a>
-          <a href="">Issues</a>
-          <a href="">Project</a>
-          <a href="">Twitter</a>
+          <Link to="https://github.com/satyammthakur">GitHub</Link>
+          <Link to="https://x.com/eagerbat_">Twitter</Link>
         </div>
         <div>
           <h4>Help</h4>
-          <a href="">Support</a>
-          <a href="">TroubleShooting</a>
-          <a href="">Contact Us</a>
+          <Link to="https://github.com/satyammthakur/DelhiForU">Contribute</Link>
+          {/* <Link to="">TroubleShooting</Link> */}
+          <Link to="mailto:notesnaryana@gmail.com">Contact Us</Link>
         </div>
         <div>
           <h4>Others</h4>
-          <a href="">Term of Service</a>
-          <a href="">Privacy Policy</a>
-          <a href="">License</a>
+          <Link to="">Term of Service</Link>
+          <Link to="">Privacy Policy</Link>
+          <Link to="">License</Link>
         </div>
       </div>
     </div>

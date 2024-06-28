@@ -38,6 +38,7 @@ img {
 .hero-text h1 {
   font-size: 3rem;
   font-weight: 900;
+  font-family: 'Inconsolata', monospace;
   background: #fff;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -45,6 +46,8 @@ img {
 
 .hero-text p {
   font-size: 1.3rem;
+  font-weight: bold;
+  font-family: 'Inconsolata', monospace;
   color: #fff;
   padding: 0.5rem 0 2rem 0;
 }

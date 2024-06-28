@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import ServiceImg from "../assets/8.jpg";
+import ServiceImg from "../assets/services.avif";
 import Hero from "../components/Hero";
 import Footer from "../components/Footer";
 import Trip from "../components/Trip";

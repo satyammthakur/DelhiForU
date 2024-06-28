@@ -1,9 +1,11 @@
+//Have to work on this later but.
+// Want ot to send me mail when someone writes anything here 
 import classes from "./ContactForm.module.css";
 
 function ContactForm() {
   return (
     <div className={classes["form-container"]}>
-      <h1>Send a message to us..!</h1>
+      <h1>Feel free to message us we would like to hear from you!</h1>
       <form>
         <input placeholder="Name"></input>
         <input placeholder="Email"></input>

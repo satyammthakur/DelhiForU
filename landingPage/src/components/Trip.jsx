@@ -7,8 +7,8 @@ import Trip3 from "../assets/yulu.jpeg";
 function Trip() {
   return (
     <div className={classes.trip}>
-      <h1>Recent Trips</h1>
-      <p>You can discover unique destinations using google Maps.</p>
+      <h1>Our Trips and Services</h1>
+      <p>Tip: You can discover unique destinations using google Maps.</p>
       <div className={classes.tripcard}>
         <TripData
           image={Trip1}
