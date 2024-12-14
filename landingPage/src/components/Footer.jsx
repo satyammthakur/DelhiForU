@@ -11,13 +11,13 @@ function Footer() {
           <p >Delhi se hai *apshabd* </p>
         </div>
         <div>
-          <Link to="https://github.com/satyammthakur">
+          <Link to="https://github.com/Yash-032">
             <i className="fa-brands fa-github"></i>
           </Link>
           <Link to="https://x.com/eagerbat_">
             <i className="fa-brands fa-square-twitter"></i>
           </Link>
-          <Link to="https://www.instagram.com/satyammthakur/">
+          <Link to="https://www.instagram.com/flyvitasta/">
             <i className="fa-brands fa-square-instagram"></i>
           </Link>
         </div>
